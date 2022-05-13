@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 
-class Pagina1Page extends StatelessWidget {
+class Page1 extends StatelessWidget {
 
-  const Pagina1Page({Key? key}) : super(key: key);
+  const Page1({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class Pagina1Page extends StatelessWidget {
 
       floatingActionButton: FloatingActionButton(
           child: const Icon( Icons.accessibility_new ),
-          onPressed: () => Navigator.pushNamed(context, 'pagina2')
+          onPressed: () => Navigator.pushNamed(context, 'page2')
       ),
     );
   }

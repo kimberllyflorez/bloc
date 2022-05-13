@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 
-class Pagina2Page extends StatelessWidget {
+class Page2 extends StatelessWidget {
 
-  const Pagina2Page({Key? key}) : super(key: key);
+  const Page2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
